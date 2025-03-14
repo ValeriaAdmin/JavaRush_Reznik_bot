@@ -1,80 +1,71 @@
 # ChatGPT Telegram Bot
 
-Этот бот предназначен для взаимодействия с **ChatGPT** и включает в себя различные возможности, такие как отправка рандомных фактов, ответы на запросы, имитация общения с известными личностями, игра в КВИЗ, а также поддержка голосовых сообщений и перевод текста с русского на английский.
+This bot is designed for interacting with **ChatGPT** and includes various features such as sending random facts, responding to queries, simulating conversations with famous personalities, playing a QUIZ game, as well as supporting voice messages and translating text from Russian to English.
 
-## Функции
+## Features
 
-1. **Запросы к ChatGPT**: Вы можете отправлять любые текстовые запросы, и бот будет отвечать с использованием ChatGPT.
-2. **Рандомные факты**: Бот может отправить случайный интересный факт по запросу.
-3. **Имитирование общения с известными личностями**: Бот может имитировать диалог с известными личностями, предоставляя ответы в их стиле.
-4. **КВИЗ**: Бот может провести викторину с вопросами и оценками.
-5. **Голосовые сообщения**: Бот поддерживает отправку и получение голосовых сообщений.
-6. **Перевод текста**: Бот может перевести текст с русского на английский по запросу.
+- **ChatGPT Queries**: You can send any text queries, and the bot will respond using ChatGPT.
+- **Random Facts**: The bot can send a random interesting fact upon request.
+- **Simulating Conversations with Famous Personalities**: The bot can imitate dialogues with famous personalities, providing responses in their style.
+- **QUIZ**: The bot can conduct a quiz with questions and scores.
+- **Voice Messages**: The bot supports sending and receiving voice messages.
+- **Text Translation**: The bot can translate text from Russian to English upon request.
 
-## Установка
+## Installation
 
-Для того чтобы начать работать с этим проектом, выполните следующие шаги:
+To start working with this project, follow these steps:
 
-### Клонирование репозитория:
+### Cloning the Repository
 
-1. Склонируйте репозиторий на вашу локальную машину:
-    ```bash
-    git clone https://github.com/ValeriaAdmin/JavaRush_Reznik_bot.git
-    ```
+```bash
+git clone https://github.com/ValeriaAdmin/JavaRush_Reznik_bot.git
+```
 
-### Установка зависимостей:
+### Installing Dependencies
 
-2. Перейдите в директорию проекта:
-    ```bash
-    cd JavaRush_Reznik_bot
-    ```
+```bash
+cd JavaRush_Reznik_bot
+pip install -r requirements.txt
+```
 
-3. Установите зависимости:
-    ```bash
-    pip install -r requirements.txt
-    ```
+## Usage
 
-## Использование
+1. Copy your bot token from **BotFather**.
+2. Create a `config.py` file and add your bot token:
 
-1. Скопируйте токен вашего бота из **BotFather**.
-2. Создайте файл `config.py` и добавьте токен вашего бота:
-    ```python
-    API_TOKEN = 'YOUR_BOT_API_TOKEN'
-    ```
+```python
+API_TOKEN = 'YOUR_BOT_API_TOKEN'
+```
 
-3. Запустите проект:
-    ```bash
-    python bot.py
-    ```
+3. Run the project:
 
-4. Бот будет готов к работе, и вы можете начать взаимодействовать с ним в Telegram.
+```bash
+python bot.py
+```
 
-## Команды
+4. The bot will be ready to work, and you can start interacting with it on Telegram.
 
-- `/start`: Начать общение с ботом.
-- `/random`: Получить случайный факт.
-- `/gpt`: Начать диалог с ChatGPT.
-- `/quiz`: Играть в викторину.
-- `/talk`: Диалог с известной личностью.
-- `/translator <text>`: Перевести текст с русского на английский.
+## Commands
 
-## Пример использования
+- `/start` - Start interacting with the bot.
+- `/random` - Get a random fact.
+- `/gpt` - Start a conversation with ChatGPT.
+- `/quiz` - Play a quiz game.
+- `/talk` - Have a conversation with a famous personality.
+- `/translator <text>` - Translate text from Russian to English.
 
-1. **Запросы к ChatGPT**: Просто отправьте текстовое сообщение, и бот ответит, используя ChatGPT.
+## Usage Example
 
-2. **Рандомные факты**: Отправьте команду `/random`, и бот отправит вам случайный интересный факт.
+- **ChatGPT Queries**: Simply send a text message, and the bot will respond using ChatGPT.
+- **Random Facts**: Send the `/random` command, and the bot will send you a random interesting fact.
+- **Simulating Conversations with Famous Personalities**: Type `/talk <name>`, and the bot will start imitating a dialogue with the personality of your choice.
+- **QUIZ**: Send the `/quiz` command, and the bot will start a quiz with questions.
+- **Voice Messages**: You can send voice messages, and the bot will respond to them.
+- **Text Translation**: Type `/translate <text in Russian>`, and the bot will translate the text into English.
 
-3. **Имитирование общения с известными личностями**: Напишите команду `/talk <name>`,  и бот начнет имитировать диалог с личностью, которую вы выберете.
+## Contact
 
-4. **КВИЗ**: Отправьте команду `/quiz`, и бот начнет викторину с вопросами.
+If you have any questions or suggestions, you can contact me via email:
 
-5. **Голосовые сообщения**: Вы можете отправлять голосовые сообщения, и бот будет отвечать на них.
+📧 **Email**: reznik9711@gmail.com
 
-6. **Перевод текста**: Напишите команду `/translate <текст на русском>`, и бот переведет текст на английский.
-
-
-## Контакты
-
-Если у вас есть вопросы или предложения, вы можете связаться со мной через email:
-
-- Email: reznik9711@gmail.com
